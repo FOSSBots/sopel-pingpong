@@ -28,7 +28,7 @@ deploy:
     secure: HMkkzSA33Jj8TpbPPryLJUIeVa/XbcV+hq63/MaHyU58FNgaQnLZ7DRWmBgta9OwMtimSiGK7Ygi0sajOiuNhkp8Rt8IcTGENd1jYCEb4AQG1kuivz1BC4DIbyeRCuqzYnXoiP8SCB+6HR6BiG4hVqnQg7ksnSG9NxK29PqCBQH5RXn4rvRz7BaVFOltJ2IyIXYd7lufkdMBj+z6ZmdaMEz3Axv2MU4d34HwtLDnfV/MKLE8vopMO9FQqewuDEeKe2HQTqsgvpL5kqB6Gqh3ZxmmIVoKJQCKjf1o9z7sLURm2+7nvxxlWWFuS214KNsydTY7XoA4DrZEg5J2U+Jjqbj0Qufse7Qfhy1nk45GhHfJaJBDsfT5j12UP2JVv96KYvVFmWxTlD+SHO6DSZauFlNnaaK+ZXsrWpJpp6Af6P1vqCPkMWKdDT1hzgDdZa7HHxewm1VSCZLrky4RoMFYUbiXngY3P9XiL04Ln+cWh/jD/jxbQN8jxs5LSvmApgncARSOWRexR7fRwpPLYV9RI5fQUjjbeuKIZZeidCgIRt2zTx90PrUJy0S6EjxTzlTNp6OKijdPh3Uo0375x7Ke/tUOoplgtttcMU4MpacwrGM4JPGhOH66lHwEFps7kh+cmMG9JppGOUmdGmrRu4eIs9iqrUO4GwsEkiYIOAPZfss=
   on:
     python: '3.7'
-    branch: main
+    branch: release
   skip_existing: true
 notifications:
   irc:
