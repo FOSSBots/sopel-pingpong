@@ -13,7 +13,7 @@ arch: arm64-graviton2
 virt: lxd
 install:
 - pip install .
-- pip install flake8, pytest
+- pip install flake8 pytest
 before_script:
 - python --version
 - pip show sopel_plugins.pingpong
