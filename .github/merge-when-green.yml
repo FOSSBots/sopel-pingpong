@@ -1,4 +1,4 @@
 requiredChecks:
   - github-actions
-  - sonarcloud
+  - github-code-scanning
   - lgtm-com
