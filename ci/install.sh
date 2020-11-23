@@ -1,2 +1,2 @@
 pip install .
-pip install flake8
+pip install flake8 pytest
