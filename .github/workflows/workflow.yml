@@ -46,7 +46,7 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/release'
         with:
           password: ${{ secrets.pypi_token }}
-          build: false
+          build: true
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
