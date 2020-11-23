@@ -47,7 +47,7 @@ jobs:
         with:
           password: ${{ secrets.pypi_token }}
           build: false
-          dist_dir: /
+          dist_dir: sdist
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
