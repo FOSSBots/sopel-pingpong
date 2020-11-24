@@ -9,7 +9,7 @@ with open('requirements.txt') as requirements_file:
 
 setup(
     name='sopel_plugins.pingpong',
-    version='1.0.1',
+    version='1.0.2',
     description='Pingpong plugin for Sopel',
     long_description=readme,
     long_description_content_type='text/markdown',  # This is important!
