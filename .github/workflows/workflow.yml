@@ -30,7 +30,7 @@ jobs:
           pip show sopel_plugins.pingpong
       - name: Run tests
         run: |
-          flake8 sopel_pingpong/pingpong . --max-line-length 265 --exclude dist/* --exclude build/*
+          flake8 sopel_pingpong/pingpong --max-line-length 265 --exclude=dist/*,build/*
           pytest tests
       - name: Run pip freeze
         run: |
